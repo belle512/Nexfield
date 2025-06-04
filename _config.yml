@@ -1,8 +1,8 @@
 # Site settings
 title: Nexfield Africa Business Consultancy
 description: Your trusted partner for business entry into Africa. Offering comprehensive market strategies, valuable partnerships, and expert guidance.
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
+url: "www.nexfieldafricaconsultancy.com"
+baseurl: ""/Nexfield"
 
 # Build settings
 markdown: kramdown
