@@ -2,7 +2,7 @@
 title: Nexfield Africa Business Consultancy
 description: Your trusted partner for business entry into Africa. Offering comprehensive market strategies, valuable partnerships, and expert guidance.
 url: "www.nexfieldafricaconsultancy.com"
-baseurl: ""/Nexfield"
+baseurl: "/Nexfield"
 
 # Build settings
 markdown: kramdown
