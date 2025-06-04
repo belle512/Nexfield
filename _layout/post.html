@@ -1,0 +1,44 @@
+---
+layout: default
+---
+<section class="blog-detail">
+    <div class="container">
+        <a href="{{ '/blog' | relative_url }}" class="btn btn-secondary back-to-blog">← Back to Blog</a>
+        <div class="blog-detail-content">
+            <h2>{{ page.title }}</h2>
+            <div class="blog-meta">
+                <span><i class="far fa-calendar-alt"></i> {{ page.date | date: "%B %d, %Y" }}</span>
+                {% if page.author %}
+                <span><i class="fas fa-user"></i> {{ page.author }}</span>
+                {% endif %}
+            </div>
+            
+            {% if page.image %}
+            <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+            {% endif %}
+            
+            <div class="blog-text">
+                {{ content }}
+            </div>
+            
+            <div class="comment-section">
+                <h3>Comments</h3>
+                <div class="comment-form">
+                    <h4>Leave a Comment</h4>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Comment" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Post Comment</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
