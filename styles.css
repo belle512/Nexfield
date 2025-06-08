@@ -1054,3 +1054,17 @@ footer {
         min-height: 200px;
     }
 }
+
+/* Blog Page Styles */
+.blog-page {
+    padding: 120px 0 80px;
+    background-color: var(--white);
+}
+
+.blog-page .blog-grid {
+    margin-bottom: 60px;
+}
+
+.active {
+    color: var(--primary-color) !important;
+    
